@@ -1,0 +1,30 @@
+yogesh
+
+cause status model
+id name
+1 Pending
+2 Confirmed
+
+Yogesh Bhattarai [Front and Backend]
+create cause
+        1. Name,
+        2. Description
+        3. Date
+        4. No of Volunteers Required
+        status -> cause_status_id 
+
+    Invite_for_cause
+        -> Volunteers send mail
+        id, Volunteer_id, code, status
+        1       1          C001, 0 pending ->1 -> 2
+
+
+Volunteers [front back]
+    listing,
+
+    Register as Volunteers
+    FirstName, LastName,Contact No, Email, Contact No, Address,
+    Volunteer Skills
+        -> select multiple
+    status Pending
+

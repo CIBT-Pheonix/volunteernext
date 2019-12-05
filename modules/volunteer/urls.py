@@ -1,5 +1,5 @@
 from django.urls import path
-from .views.volunteer import index
+from .views.volunteer import Volunteer
 urlpatterns = [
-    path('',index)
+    path('',Volunteer.as_view())
 ]
